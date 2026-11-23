@@ -8,7 +8,7 @@
 }
 
 :root {
-  --black: #0E1211;
+  --black: #111111;
   --cream: #F7F7DC;
   --green: #2D5F3D;
   --grey: #666666;
@@ -36,21 +36,16 @@ h1, h2, h3 {
 /*-----------*/
 
 #header-top {
-    position: relative;
     height: 95px;
-    background: linear-gradient(90deg, var(--gradientgreen1) 0%, var(--gradientgreen2) 49.52%, var(--gradientgreen1) 100%);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 #pulse-logo {
-    position: absolute;
-    display: flex;
-    align-items: center;
-   top: 2%;
-    width: 200px;
-    height: auto;
+    top: 2%;
+    width: 100px;
+    margin: 50px;
 }
 
 .search-tools {
@@ -82,7 +77,6 @@ transform: scale(1.03);
     margin: 0;
     padding: 7px;
     list-style: none;
-    background-color: var(--darkgrey);
 }
 
 #menu a {
@@ -90,6 +84,7 @@ transform: scale(1.03);
     font-weight: bold;
     text-decoration: none;
     font-size: medium;
+    padding: 20px;
 
 }
 
