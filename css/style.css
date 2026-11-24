@@ -198,56 +198,6 @@ h1, h2, h3 {
 
 
 
-/* ---------- SPECS-STRIP  ---------- */
-
-.specs-strip {
-    background-color: rgba(45, 95, 61, 0.06);
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    justify-content: space-around;
-    padding: 0;
-    margin: 0 0 60px 0;
-    gap: 30px;
-    margin-bottom: 2px;
-    border-top: 2px solid rgba(45, 95, 61, 0.15);
-    border-bottom: 2px solid rgba(45, 95, 61, 0.15);
-}
-
-.specs-strip li {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  gap: 4px;
-  padding: 20px 0;
-  border-right: 1px solid rgba(45, 95, 61, 0.2);
-}
-
-.specs-strip li:last-child {
-  border-right: none;
-}
-
-.specs-strip img {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  margin-bottom: 8px;
-}
-
- .spec-tal {
-  font-weight: 700;
-  font-size: 22px;
-  margin: 0;
-  color: var(--green);
-}
-
-.spec-label {
-  font-size: 13px;
-  color: var(--grey);
-  margin: 4px 0 0 0;
-}
-
 
 /*------------------ */
 /*    SECTION 2     */
