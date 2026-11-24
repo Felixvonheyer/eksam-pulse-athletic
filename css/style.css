@@ -235,7 +235,7 @@ h1, h2, h3 {
 
 
 /* CONTAINER INDE I DIV */
-.funktioner-container {
+.funktioner-cards {
   background: var(--black);
   border-radius: 24px;
   padding: 24px;
@@ -247,7 +247,7 @@ h1, h2, h3 {
 
 }
 /* HAR TILPASSET IMG FOR AT SKABE SIMILARITY */
-.funktioner-container img {
+.funktioner-cards img {
   width: 60px;
   height: 60px;
   object-fit: contain;
