@@ -13,8 +13,13 @@
   --green: #2D5F3D;
   --grey: #666666;
   --darkgrey: #272727;
-  --gradientgreen1: #5EAB5E;
-  --gradientgreen2: #3B7D3B;
+  --gradientbackground:
+  linear-gradient(180deg,
+    #0E1211 0%,
+    #558628 45%,
+    #558628 55%,
+    #0E1211 100%);
+  
   --white: #ffffff;
   --cta:#74AE24
 }
@@ -73,7 +78,7 @@ header {
 /* body */
 
 body {
-  background: var(--cream);
+  background: var(--gradientbackground);
   color: var(--black);
   margin: 0;
 }
@@ -200,14 +205,34 @@ h1, h2, h3 {
 /*    SECTION 2     */
 /*-------------------*/
 
+.section-text {
+  padding: 50px;
+}
+
 .section-title {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 0.95;
   margin-bottom: 10px;
   color: var(--white);
   font-weight: 800;
-  padding: 25px;
 }
+
+.section-subtitle {
+  font-size: 17px;
+  color: var(--white);
+  margin-bottom: 30px;
+  line-height: 1.0;
+  font-weight: 120;
+}
+
+.funktioner-container {
+  background: var(--darkgrey);
+  border-radius: 24px;
+  padding: 24px;
+  margin: 20px;
+
+}
+
 
 
 
