@@ -277,6 +277,16 @@ article p {
   text-align: center;
 }
 
+
+h6 {
+  color: var(--cta);
+  margin-bottom: 15px;
+}
+.product-wrapper h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
 .product-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -323,6 +333,7 @@ article p {
     font-size: 15px;
 
 }
+
 
 
 
