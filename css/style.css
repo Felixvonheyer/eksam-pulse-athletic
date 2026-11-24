@@ -128,19 +128,14 @@ h1, h2, h3 {
   color: var(--white);
   margin-bottom: 30px;
   line-height: 1.0;
+  font-weight: 120;
 
   
 }
 
-.hero-content h1,
-.hero-content .pulse-text,
-.hero-content .price {
-  
-  font-style: bold;
-}
 
 
-/*CTA KNAP*/
+
 
 
 
@@ -159,8 +154,8 @@ h1, h2, h3 {
     color: white; 
     text-decoration:none;
     padding: 18px 40px ;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 #cta-button2 {
@@ -177,8 +172,8 @@ h1, h2, h3 {
     color: white; 
     text-decoration:none;
     padding: 18px 40px ;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 
