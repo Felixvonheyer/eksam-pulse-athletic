@@ -75,16 +75,8 @@ header {
 
 body {
   background: var(--gradientbackground);
-  color: var(--black);
   margin: 0;
 }
-
-h1, h2, h3 {
-  font-weight: 500;
-}
-
-
-
 
 /*---------------*/
 /* HERO SECTION */
@@ -92,7 +84,7 @@ h1, h2, h3 {
 
 .hero-section {
     position: relative;
-    min-height: 70vh;
+    min-height: 820px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -100,23 +92,25 @@ h1, h2, h3 {
     padding: 0 20px 70px;
 
     background-image: url("../img/hero-section-baggrund.svg");
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
+     background-position: center;
+     background-position: 40%;
+
 }
 
 
 /* Boksen med alt teksten */
 .hero-content {
-    left: 70px;
-    top: 140px;
+    left: 100px;
+    top: 190px;
   position: absolute;
   max-width: 900px;
   z-index: 2;
 }
 
 .hero-content h1 {
-  font-size: 70px;
+  font-size: 85px;
   line-height: 0.95;
   margin-bottom: 10px;
   color: var(--white);
