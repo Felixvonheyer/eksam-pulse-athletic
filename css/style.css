@@ -235,7 +235,7 @@ h1, h2, h3 {
 
 
 /* CONTAINER INDE I DIV */
-.funktioner-cards {
+.funktioner-card {
   background: var(--black);
   border-radius: 24px;
   padding: 24px;
@@ -247,7 +247,7 @@ h1, h2, h3 {
 
 }
 /* HAR TILPASSET IMG FOR AT SKABE SIMILARITY */
-.funktioner-cards img {
+.funktioner-card img {
   width: 60px;
   height: 60px;
   object-fit: contain;
@@ -277,7 +277,52 @@ article p {
   text-align: center;
 }
 
-.product-card
+.product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  
+} 
+
+.product-card {
+  background: var(--black);
+  border-radius: 40px;
+  padding: 24px;
+  margin: 20px;
+  color: var(--white);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+/* PRODUKT BILEDDE */
+.product-card img {
+  width: 350px;
+  height: auto;
+  margin-bottom: 16px;
+
+}
+
+/* CTA BUTTON "Se uret" */
+.product-card #cta-button1 {
+  background: var(--cta);
+  border: none;
+  border-radius: 20px;
+  padding: 0; 
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+
+}
+.product-card #cta-button1 a {
+  font-weight: 550;
+    font-size: 15px;
+
+}
 
 
 
