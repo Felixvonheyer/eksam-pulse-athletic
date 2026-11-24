@@ -198,7 +198,7 @@ h1, h2, h3 {
 
 
 /*------------------ */
-/*    SECTION 2     */
+/*    SECTION 2 FUNKTIONERNE */
 /*-------------------*/
 
 .section-text {
@@ -268,83 +268,19 @@ article p {
 
 
 
+/*------------------ */
+/*    SECTION 3 FIND DIN PULSE CORE FARVE */
+/*-------------------*/
 
-
-
-/* ---------- VENSTRE KOLONNE ---------- */
-
-.ur-features {
-  background-color: var(--cream);
-  padding: 90px 60px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  margin: 0 auto;
-
+/* TILPASSER H2 IND I MIDTEN */
+.section-text #farve-ur {
+  text-align: center;
 }
 
-.ur-venstre header{ 
-margin-bottom: 30px;}
 
 
-#pulse-label {
-  font-size: 40px;
-    white-space: nowrap;
-    color: var(--green);
-    margin-bottom: 8px;
-    font-weight: 700;
-}
 
-#uret-der {
-  font-size: 32px;
-  margin-bottom: 20px;
- white-space: nowrap;
-}
 
-.intro {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 150px;
-  max-width: 400px;
-  color: var(--black);
-  text-decoration:none;
-}
-
-/* ---------- BILLEDET AF URENE ---------- */
-.ur-billede img {
- width: 100%;
-  max-width: 680px;
-  display: block;
-   filter: drop-shadow (0 25px 50px rgba(158, 155, 155, 0.725));
-}
-
-/* ---------- HØJRE KOLONNE: -------- */
-
-/* ---------- FEATURE-LISTE  ---------- */
-
-.feature-liste {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.feature-liste li {
-  font-size: 15px;
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
-  line-height: 2;
-  color: var(--grey);
- }
-
-.feature-liste li:first-child {
-  border-top: 1px solid rgba(17, 17, 17, 0.1);
-}
-
-.feature-liste li h4 {
-  font-size: 16px;
-  margin: 0 0 4px 0;
-  color: var(--black);
-}
 
 /* ---------- "VIS FLERE DETALJER"  ---------- */
 .flere-features {
