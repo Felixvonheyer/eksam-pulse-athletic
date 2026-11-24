@@ -9,17 +9,13 @@
 	padding: 0;
 	box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  --cream: #F7F7DC;
-  --green: #2D5F3D;
-  --grey: #666666;
-  --darkgrey: #272727;
   --gradientbackground:
   linear-gradient(180deg,
     #0E1211 0%,
     #558628 45%,
     #558628 55%,
     #0E1211 100%);
-  
+  --black:#0E1211;
   --white: #ffffff;
   --cta:#74AE24
 }
@@ -207,8 +203,10 @@ h1, h2, h3 {
 
 .section-text {
   padding: 50px;
+  color: var(--white)
 }
 
+/* OVERSKRIFT  */
 .section-title {
   font-size: 40px;
   line-height: 0.95;
@@ -220,16 +218,32 @@ h1, h2, h3 {
 .section-subtitle {
   font-size: 17px;
   color: var(--white);
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   line-height: 1.0;
-  font-weight: 120;
+  font-weight: 100;
 }
 
+/* DIV DER STYRER ALLE 4 CONTAINER */
+.funktioner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  
+} 
+
+
+
+/* CONTAINER INDE I DIV */
 .funktioner-container {
-  background: var(--darkgrey);
+  background: var(--black);
   border-radius: 24px;
   padding: 24px;
   margin: 20px;
+  color: var(--white);
+  width: 280px;
+  
+  
 
 }
 
@@ -274,7 +288,7 @@ margin-bottom: 30px;}
   font-weight: 500;
   margin-bottom: 150px;
   max-width: 400px;
-  color: var(--grey);
+  color: var(--black);
   text-decoration:none;
 }
 
