@@ -198,7 +198,7 @@ h1, h2, h3 {
 
 
 /*------------------ */
-/*    SECTION 2 FUNKTIONERNE */
+/*    SECTION 1 FUNKTIONERNE */
 /*-------------------*/
 
 .section-text {
@@ -269,13 +269,15 @@ article p {
 
 
 /*------------------ */
-/*    SECTION 3 FIND DIN PULSE CORE FARVE */
+/*    SECTION 2 FIND DIN PULSE CORE FARVE */
 /*-------------------*/
 
 /* TILPASSER H2 IND I MIDTEN */
 .section-text #farve-ur {
   text-align: center;
 }
+
+.product-card
 
 
 
