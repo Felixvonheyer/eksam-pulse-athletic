@@ -336,10 +336,10 @@ h6 {
 /*    SECTION 3 ANMELDELSER */
 /*-------------------*/
 
-.anmeldeser-wrapper {
+.pulseapp-wrapper {
   background: var(--black);
   border-radius: 70px;
-  padding: 45px;
+  padding: 20px;
   margin: 40px;
   color: var(--white);
   display: flex;
@@ -348,23 +348,22 @@ h6 {
 }
 
 
-#anmeldeser-text {
+#pulseapp-text {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 100px;
+  padding: 40px;
 }
 
 
-.anmeldeser-card {
+.pulseapp-card {
   display: flex;
   align-items: center;
   padding: 25px;
-  margin: 20px;
   
 }
 
-.anmeldeser-wrapper #cta-button1 {
+.pulseapp-wrapper #cta-button1 {
   margin-left: 100px;
   padding: 25px;
   width: 400px;
@@ -372,27 +371,27 @@ h6 {
   
 }
 
-.anmeldeser-card-text {
+.pulseapp-card-text {
   margin-left: 25px;
 }
 
 
-.anmeldeser-card-text h3 {
+.pulseapp-card-text h3 {
   font-size: 23px;
   margin-bottom: 5px;
 }
 
- .anmeldeser-img {
+ .pulseapp-img {
   position: relative;
 
  }
 
-  .anmeldeser-img #app-watch {
+  .pulseapp-img #app-watch {
     position: relative;
     left: 120px;
  
  }
-  .anmeldeser-img #app-phone {
+  .pulseapp-img #app-phone {
     position: relative;
  
  }
