@@ -405,6 +405,52 @@ h6 {
 
 
 
+/*------------------ */
+/*    SECTION 4 ANMELDELSER TRUST PILOT*/
+/*-------------------*/
+
+
+ /* DIV DER STYRER ALLE 4 CONTAINER */
+.anmeldeser-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
+  justify-content: center;
+  margin-bottom: 100px
+  
+} 
+
+
+
+/* CONTAINER INDE I DIV */
+.anmeldelser-card {
+  background: var(--black);
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px;
+  color: var(--white);
+  width: 320px;
+
+}
+
+.personal-review {
+  display: flex;
+  align-items: center;
+
+}
+
+.bottom-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
 
 
 
