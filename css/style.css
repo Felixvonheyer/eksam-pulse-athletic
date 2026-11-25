@@ -333,9 +333,10 @@ h6 {
 
 
 /*------------------ */
-/*    SECTION 3 ANMELDELSER */
+/*    SECTION 3 PULSE CORE APPEN */
 /*-------------------*/
 
+/* CONTAINER AF APP INFORMATIONER */
 .pulseapp-wrapper {
   background: var(--black);
   border-radius: 70px;
@@ -347,7 +348,7 @@ h6 {
 
 }
 
-
+/* TEXT OG ICON SAMLET ALLE 3 SAMMEN I EN CONTAINER */
 #pulseapp-text {
   display: flex;
   flex-direction: column;
@@ -355,14 +356,14 @@ h6 {
   padding: 40px;
 }
 
-
+/* TEXT OG ICON ENKELT CONTAINER  */
 .pulseapp-card {
   display: flex;
   align-items: center;
   padding: 25px;
   
 }
-
+/* CTA BUTTON  */
 .pulseapp-wrapper #cta-button1 {
   margin-left: 100px;
   padding: 25px;
@@ -370,27 +371,33 @@ h6 {
 
   
 }
-
+/* AFSTAND ICON TIL TEXT */
 .pulseapp-card-text {
   margin-left: 25px;
 }
 
 
+/* TEXT STØRRELSE GJORT STØRRE OG AFSTAND TIL P */
 .pulseapp-card-text h3 {
   font-size: 23px;
   margin-bottom: 5px;
 }
 
+/* FLYTTER DE TO IMG LIDT TIL VENSTRE  */
  .pulseapp-img {
   position: relative;
+  right: 80px;
+
 
  }
 
+ /* PUTTER URET MERE TIL APP SMARTPHONE  */
   .pulseapp-img #app-watch {
     position: relative;
     left: 120px;
  
- }
+ } 
+ /* RELATIVE GØR DET MULIGT AT BLIVE STÅENDE I LAYOUT, MEN JEG FÅR LOV TIL AT FLYTTE DEN RUNDT  */
   .pulseapp-img #app-phone {
     position: relative;
  
