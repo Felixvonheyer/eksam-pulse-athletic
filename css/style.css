@@ -454,17 +454,12 @@ h6 {
 /* HELE FOOTEREN */
 /* -------------------- */
 
+
 .footer {
-
-
-background-color:var(--black)
-
-display: grid;
-
-    /* 3 kolonner */
-
-    grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--black);
 }
+
+
 
 
 
@@ -474,13 +469,22 @@ display: grid;
 
 
 .footer-links {
+padding: 50px;
+  display: flex;
+  flex-direction: column;
 
- padding-top: 80px;
- padding-left: 80px;
+}
+.footer-links {
+padding: 50px;
+  display: flex;
+  flex-direction: row;
 
-    display: flex;
-    flex-direction: column;
+}
 
+
+.footer-links #social-media {
+  width: 100px;
+  height: auto;
 }
 /* Links */
 .footer-links a{
