@@ -410,7 +410,7 @@ h6 {
 /*-------------------*/
 
 
- /* DIV DER STYRER ALLE 4 CONTAINER */
+ /* DIV DER STYRER ALT I DENNE SEKTION  */
 .anmeldeser-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -422,7 +422,7 @@ h6 {
 
 
 
-/* CONTAINER INDE I DIV */
+/* CONTAINER INDE I DIV SOM STYRER DE 4 CONTAINER */
 .anmeldelser-card {
   background: var(--black);
   border-radius: 30px;
@@ -433,17 +433,21 @@ h6 {
 
 }
 
+/* NAVN OG PROFIL VEKTOR */
 .personal-review {
   display: flex;
   align-items: center;
 
 }
 
+/* PROFIL DELINGEN NAVN,PROFIL,TRUSTPILOT */
 .bottom-review {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+
 
 
 
