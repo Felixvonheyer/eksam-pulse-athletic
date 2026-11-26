@@ -457,208 +457,85 @@ h6 {
 
 .footer {
   background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+  
 }
 
-
-
-
-
-/* -------------------- */
-/* VENSTRE SIDE */
-/* -------------------- */
 
 
 .footer-links {
 padding: 50px;
-  display: flex;
-  flex-direction: column;
-
-}
-.footer-links {
-padding: 50px;
-  display: flex;
-  flex-direction: row;
-
-}
-
-
-.footer-links #social-media {
-  width: 100px;
-  height: auto;
-}
-/* Links */
-.footer-links a{
-
-    color: white;
-
-    text-decoration: none;
-
-    font-size: 20px;
-
-    margin-bottom: 5px;
-    font-style: italic;
-}
-
-/* Første link */
-
-.footer-links a:first-child{
-
-    text-decoration: underline;
-    font-weight: 800;
-    font-style: normal;
-    color: gainsboro;
-}
-
-/* Når musen er over */
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
-/* -------------------- */
-/* MIDTEN */
-/* -------------------- */
-
-.footer-midt {
-  background-color: var(--darkgrey);
-}
-
-/* -------------------- */
-/* HØJRE SIDE */
-/* -------------------- */
-
-
-.app-section {
-   background: radial-gradient(49.9% 46.71% at 50% 50%, rgba(24, 22, 22, 0.20) 16.83%, rgba(42, 39, 39, 0.20) 30.29%, rgba(36, 34, 34, 0.20) 53.37%, rgba(135, 132, 132, 0.20) 83.17%, rgba(196, 192, 192, 0.20) 100%), #2C9844;
-   padding: 40px 150px;
- 
-
-}
-
-/* Pulse logo */
-
-.app-logo {
-    width: 85px;
-    height: 85px;
-    margin-bottom: 30px;
-
-    background-color: var(--cream);
-    border-radius: 18px;
-    display:flex;
-   justify-content:center;
-    align-items: center;
-    overflow: hidden;
-}
-
-
-.app-logo img {
-    width: 120px;
-
-}
-
-/* Pulse core overskrift */
-
-.app-section h2 {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-
-.app-section h2:hover {
-
-text-decoration: underline;
-
-}
-
-/* Stjerner ved appen */
-
-.app-rating {
-
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    margin-top: 5px;
-}
-
-/* Hver app-stjerne */
-
-.app-rating img {
-    width: 22px;
-    height: 22px;
-}
-
-
-/* Teksten "1.5 tusind" */
-
- .user-reviews {
-    margin-left: 20px;
-
-    font-size: 16px;
-
-    font-weight: bold;
-    color: white;
-}
-
-
-/* BUTTON */
-
-
-/* App Store billede */
-
-.app-store {
-    
-width: 40px;
-height: auto;
-    margin:0;
-}
-.app-store:hover {
-    transform: scale(1.10);
-}
-
-.download-button {
-    margin-top: 50px;
-
-    padding: 12px 15px;
-
-    background-color: var(--white);
-    border: 3px solid #087cff;
-    border-radius: 15px;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--Darkgrey);
-}
-
-.download-link {
-    color: var(--darkgrey);
-    text-decoration: none;
-    font-size: 25px;
-}
-
- .download-link:hover {
-    text-decoration: underline;
-}
-
-
-/* -------------------- */
-/* NEDERSTE GRØNNE BJÆLKE */
-/* -------------------- */
-
-.footer-bottom {
-      grid-column: 1 / 4;
- background-color: var(--gradientgreen1);
- margin: 0;
-
-
- 
-
 display: flex;
- justify-content: space-between;
-align-items: center;
+flex-direction: column;
+color: white;
+
 
 }
+
+.footer-links li  {
+list-style: none;
+margin-top: 5px;
+
+}
+
+.footer-links a {
+   text-decoration:none;
+   color: white;
+   font-weight: 100;
+   font-size: small;
+
+}
+
+
+.footer-links #newsletter {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 160px;
+  flex-direction: column;
+}
+
+
+
+.footer-links #cta-button1 {
+  background: var(--cta);
+  border: none;
+  border-radius: 20px;
+  padding: 0; 
+  margin: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 20px;
+  justify-content: center;
+  font-size:xx-small
+}
+
+.footer-links #newsletter p {
+  color:white;
+  padding: 5px;
+  font-size: x-small;
+}
+
+
+.footer-links #newsletter h5 {
+  color: var(--black);
+  padding: 10px;
+  font-size: x-small;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Copyright */
 
